@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
     Vector h_S, d_S;
     size_t size_D, size_S;
 
-    read = read_matrix("teste.data");
+    read = read_matrix("/content/drive/MyDrive/colab-data/nj-data/gen_100.ent");
     if(read.error) goto EXIT;
     
     size_D = read.size_D;
